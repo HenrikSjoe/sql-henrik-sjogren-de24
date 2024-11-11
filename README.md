@@ -1,1 +1,2 @@
-# sql-henrik-sjogren-de24
+# SQL course using duckdb
+
