@@ -1,5 +1,21 @@
+DESC funny_jokes;
+
 SELECT * FROM funny_jokes;
 
-SELECT * FROM funny_jokes WHERE rating > 5;
+-- sorting by rating ascending order
+SELECT
+	*
+FROM
+	funny_jokes
+ORDER BY
+	rating;
+	
 
-SELECT * FROM funny_jokes WHERE id == 2;
+-- sorting by rating descending order
+SELECT
+	*
+FROM
+	funny_jokes
+ORDER BY
+	rating
+DESC;
