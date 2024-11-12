@@ -4,5 +4,7 @@ CREATE TABLE IF NOT EXISTS funny_jokes (
 	rating INTEGER
 );
 
-SELECT * FROM funny_jokes;
-
+SELECT
+	*
+FROM
+	funny_jokes;

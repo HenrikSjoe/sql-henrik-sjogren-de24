@@ -5,15 +5,16 @@ SELECT
 FROM
 	funny_jokes
 WHERE
-	rating <5;
-
+	rating < 5;
 
 -- now we can delete these two rows, note that this is a 
-DELETE
-FROM
+DELETE FROM
 	funny_jokes
 WHERE
-	rating <5;
+	rating < 5;
 
 -- now it has been deleted
-SELECT * FROM funny_jokes;
+SELECT
+	*
+FROM
+	funny_jokes;
