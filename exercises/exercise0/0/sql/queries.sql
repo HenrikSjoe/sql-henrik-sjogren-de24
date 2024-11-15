@@ -12,7 +12,7 @@ SELECT COUNT(content_type) from main.sql_course WHERE content_type = 'lecture';
 
 SELECT COUNT(DISTINCT content_type) FROM main.sql_course; 
 
-SELECT DISTINCT content_type FROM main.sql_course;
+SELECT DISTINCT content_type FROM main.sql_course;	
 
 
 
