@@ -2,8 +2,10 @@ DESC;
 
 SELECT * FROM data_jobs;
 
+-- namespace
 SELECT * FROM main.data_jobs;
 
+-- fully qualified name
 SELECT * FROM salaries.main.data_jobs;
 
 -- limit clause
@@ -13,7 +15,8 @@ SELECT
 	work_year,
 	job_title,
 	salary_in_usd,
-	company_location
+	company_location,
+	remote_ratio 
 FROM
 	main.data_jobs;
 
