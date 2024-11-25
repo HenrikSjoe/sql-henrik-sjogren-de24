@@ -5,3 +5,5 @@ CREATE TABLE
         FROM
             read_csv_auto ('data/food_search_google.csv')
     );
+
+     
