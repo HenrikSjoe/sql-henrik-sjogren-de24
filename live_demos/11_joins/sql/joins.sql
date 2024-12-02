@@ -9,6 +9,10 @@ SELECT
 FROM
 	main.plant_care pc  ;
 	
+SELECT
+	*
+FROM
+	main.plants p ;
 
 SELECT
 	p.plant_id,
@@ -20,6 +24,8 @@ FROM
 	main.plants p
 LEFT JOIN
 main.plant_care pc  ON p.plant_id = pc.plant_id;
+
+
 
 
 SELECT
